@@ -1,0 +1,61 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+logs/
+*.sqlite3
+*.db
+
+# Test / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# MyPy
+.mypy_cache/
+
+# Cache
+.cache/
+
+# Environment variables
+.env
+.env.*
+
+# Telegram userbot session files (sensitive)
+userbot.session
+userbot.session-journal
+
+# API and utils caches
+api/__pycache__/
+utils/__pycache__/
+
+# Misc
+*.bak
+*.tmp
+
